@@ -148,7 +148,11 @@ const ProgressTracker = () => {
                             <span className="text-sm">{topic.name}</span>
                             <span className="text-sm text-gray-500">{topic.progress}%</span>
                           </div>
-                          <Progress value={topic.progress} className="h-2" indicatorClassName={getProgressColorClass(topic.progress)} />
+                          <Progress 
+                            value={topic.progress} 
+                            className="h-2" 
+                            indicatorClassName={getProgressColorClass(topic.progress)} 
+                          />
                         </div>
                       ))}
                     </div>
