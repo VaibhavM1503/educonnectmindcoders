@@ -1,13 +1,6 @@
 # Welcome to EduConnect Project
-
-## Project info
-Made using:
-Frontend : ReactJS
-Backend : NodeJS
-Basic Framework Designs : HTML, CSS
-
-## Other Technologies Used :
-
+## Technologies Used :
+- HTML
 - Vite
 - TypeScript
 - React
