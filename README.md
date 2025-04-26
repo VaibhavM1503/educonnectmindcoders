@@ -100,3 +100,86 @@ Basically, gamify your brain—zero XP potions required.
 
 ### 🚪 Logging Out  
 When you're done being productive (or pretending to be), just hit **Log Out** and vanish like a mysterious hero after the final boss battle.
+
+
+🚀 How to Run EduConnect Locally
+Prerequisites
+Node.js (v18 or later recommended)
+npm or bun package manager
+Git
+A modern web browser
+Step-by-Step Setup Guide
+1. Clone the Repository
+git clone https://github.com/your-username/educonnect.git
+cd educonnect
+
+2. Install Dependencies
+npm install
+
+# Or if using bun
+bun install
+
+3. Supabase Setup
+Supabase Project Configuration:
+The project uses a pre-configured Supabase project
+Supabase credentials are already integrated in the src/integrations/supabase/client.ts file
+No additional configuration is needed for basic functionality
+
+4. Environment Preparation
+No .env file is required
+Supabase credentials are already embedded in the project
+
+5. Running the Application
+# Development mode
+npm run dev
+# Or with bun
+bun run dev
+
+6. Accessing the Application
+Open your browser and navigate to http://localhost:8080
+The application will be running locally
+
+## Additional Notes for Judges
+Login Credentials
+You can create a new account directly in the application
+Or use these test credentials:
+Email: test@educonnect.com
+Password: EduConnect2025!
+
+Key Technical Setup Points
+Vite is used as the build tool (port 8080)
+React with TypeScript for frontend
+Supabase for backend services
+Tailwind CSS for styling
+Troubleshooting
+Ensure all dependencies are installed correctly
+
+Check that you're using Node.js v18+
+Verify internet connection for Supabase integration
+Development Tools
+Recommended IDE: Visual Studio Code
+
+## Extensions:
+ESLint
+Prettier
+Tailwind CSS IntelliSense
+System Requirements
+
+Minimum:
+4GB RAM
+Dual-core processor
+10GB free disk space
+
+Recommended:
+8GB RAM
+Quad-core processor
+SSD storage
+
+Browser Compatibility
+Chrome (latest version)
+Firefox (latest version)
+Safari (latest version)
+Edge (latest version)
+
+## Performance Note
+The application is optimized for modern browsers and may have reduced performance on older browser versions.
